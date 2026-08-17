@@ -1,0 +1,9 @@
+# dsh-plugin-recommend — bundle patch layer.
+- insert:
+    - id: recommend
+      name: 'dsh-plugin-recommend'
+      config:
+        topN: 5
+        minScore: 1
+        promptSection: true
+        sectionOrder: 7
