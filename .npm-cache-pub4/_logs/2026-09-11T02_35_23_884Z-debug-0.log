@@ -1,0 +1,62 @@
+0 verbose cli C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node.exe C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.7
+2 info using node@v22.22.2
+3 silly config load:file:C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\l'x\WorkBuddy\2026-08-14-23-01-31\dsh-plugin-recommend\.npmrc
+5 silly config load:file:F:\AI-2026\dsh-xiaoxiaoplugins\.npmrc-temp
+6 silly config load:file:C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\etc\npmrc
+7 verbose title npm publish
+8 verbose argv "publish" "--ignore-scripts" "--cache" "C:\\Users\\l'x\\WorkBuddy\\2026-08-14-23-01-31\\dsh-plugin-recommend\\.npm-cache-pub4" "--registry" "https://registry.npmjs.org"
+9 verbose logfile logs-max:10 dir:C:\Users\l'x\WorkBuddy\2026-08-14-23-01-31\dsh-plugin-recommend\.npm-cache-pub4\_logs\2026-09-11T02_35_23_884Z-
+10 verbose logfile C:\Users\l'x\WorkBuddy\2026-08-14-23-01-31\dsh-plugin-recommend\.npm-cache-pub4\_logs\2026-09-11T02_35_23_884Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose publish [ '.' ]
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 notice
+15 notice package: dsh-plugin-recommend@1.1.1
+16 notice Tarball Contents
+17 notice 1.1kB LICENSE
+17 notice 2.4kB README.md
+17 notice 1.2kB README.zh.md
+17 notice 2.3kB ROADMAP.md
+17 notice 252B SECURITY.md
+17 notice 214B cordis.patch.yml
+17 notice 290.2kB lib/catalog.json
+17 notice 11.3kB lib/index.js
+17 notice 9.7kB lib/recommend.js
+17 notice 1.6kB package.json
+18 notice Tarball Details
+19 notice name: dsh-plugin-recommend
+20 notice version: 1.1.1
+21 notice filename: dsh-plugin-recommend-1.1.1.tgz
+22 notice package size: 97.7 kB
+23 notice unpacked size: 320.4 kB
+24 notice shasum: 81b9690f2a895920d4f454945ada28570c4a5ede
+25 notice integrity: sha512-lRAAuKR/kx9rs[...]Ays4oiPtnZKdA==
+26 notice total files: 10
+27 notice
+28 notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+29 http fetch PUT 403 https://registry.npmjs.org/dsh-plugin-recommend 6328ms
+30 verbose stack HttpErrorGeneral: 403 Forbidden - PUT https://registry.npmjs.org/dsh-plugin-recommend - You cannot publish over the previously published versions: 1.1.1.
+30 verbose stack     at C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+30 verbose stack     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+30 verbose stack     at async publish (C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\node_modules\libnpmpublish\lib\publish.js:53:15)
+30 verbose stack     at async otplease (C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\lib\utils\auth.js:8:12)
+30 verbose stack     at async #publish (C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\lib\commands\publish.js:162:7)
+30 verbose stack     at async Publish.exec (C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\lib\commands\publish.js:46:5)
+30 verbose stack     at async Npm.exec (C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\lib\npm.js:207:9)
+30 verbose stack     at async module.exports (C:\Users\l'x\.workbuddy\binaries\node\versions\22.22.2-2\node_modules\npm\lib\cli\entry.js:74:5)
+31 verbose statusCode 403
+32 verbose pkgid dsh-plugin-recommend@1.1.1
+33 error code E403
+34 error 403 403 Forbidden - PUT https://registry.npmjs.org/dsh-plugin-recommend - You cannot publish over the previously published versions: 1.1.1.
+35 error 403 In most cases, you or one of your dependencies are requesting
+35 error 403 a package version that is forbidden by your security policy, or
+35 error 403 on a server you do not have access to.
+36 verbose cwd C:\Users\l'x\WorkBuddy\2026-08-14-23-01-31\dsh-plugin-recommend
+37 verbose os Windows_NT 10.0.26200
+38 verbose node v22.22.2
+39 verbose npm  v10.9.7
+40 verbose exit 1
+41 verbose code 1
+42 error A complete log of this run can be found in: C:\Users\l'x\WorkBuddy\2026-08-14-23-01-31\dsh-plugin-recommend\.npm-cache-pub4\_logs\2026-09-11T02_35_23_884Z-debug-0.log
