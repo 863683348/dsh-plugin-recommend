@@ -15,6 +15,7 @@
 | `recommend` | `search` | Top-N plugins for a need description (`query`), optional `category` / `topN`; each result includes score + match reasons |
 | | `categories` | List catalog categories with counts |
 | | `detail` | Full catalog entry for one plugin name |
+| | `similar` | Nearest alternatives to a plugin (shared tags / category / description overlap) |
 | | `refresh` | Fetch the latest catalog from the awesome-dsh-plugin README |
 
 ## Usage
@@ -26,6 +27,8 @@ recommend detail dsh-plugin-gate
 recommend categories
 recommend refresh
 ```
+
+Search results include a `details` breakdown (name +3 / tags +2 / description +1 / category +2), are deduplicated by repository url, and support `diversify` + `perCategory` so one category cannot fill the list.
 
 Always cross-check a recommendation with the installation safety gate (`gate_scan` from dsh-plugin-gate) before installing.
 
@@ -40,3 +43,8 @@ node scripts/gen-catalog.mjs   # rebuild lib/catalog.json from awesome data
 ## License
 
 MIT
+
+
+## Roadmap
+
+See [ROADMAP.md](./ROADMAP.md) — next five versions (v1.1.0 – v1.5.0): similar & dedupe, popularity ranking, incremental refresh, requirement clarification, environment presets.
