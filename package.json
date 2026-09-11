@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-recommend",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Plugin recommender for DeepSeek Harness: search and rank DSH plugins from an embedded marketplace catalog by need description, category and tags, with scored match breakdowns, repo deduplication, per-category diversity, nearest-alternative suggestions, and a live catalog refresh from the awesome-dsh-plugin README",
   "type": "module",
   "main": "lib/index.js",
